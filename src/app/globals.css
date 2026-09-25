@@ -683,6 +683,10 @@ md-text-button {
 }
 
 @media (max-width: 768px) {
+	.desktop-br {
+		display: none;
+	}
+
 	html,
 	body {
 		overflow-x: hidden;

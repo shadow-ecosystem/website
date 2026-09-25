@@ -123,7 +123,8 @@ export default function NotFound() {
 							color: "var(--md-sys-color-outline, #757575)",
 						}}
 					>
-						We couldn't find the page you were looking for. <br />
+						We couldn't find the page you were looking for.{" "}
+						<br className="desktop-br" />
 						It might have been moved, or it may no longer exist.
 					</p>
 				</div>
