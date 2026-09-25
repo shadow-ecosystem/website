@@ -17,7 +17,7 @@ export default function Privacy() {
 			<div
 				style={{
 					backgroundColor: "var(--md-sys-color-surface)",
-					padding: "160px 24px 48px",
+					padding: "160px clamp(32px, 5vw, 64px) 48px",
 					borderBottom: "1px solid var(--md-sys-color-surface-container-high)",
 					display: "flex",
 					flexDirection: "column",
@@ -50,7 +50,7 @@ export default function Privacy() {
 			<main
 				style={{
 					flex: 1,
-					padding: "64px 24px",
+					padding: "64px clamp(32px, 5vw, 64px)",
 					maxWidth: "840px",
 					margin: "0 auto",
 					width: "100%",

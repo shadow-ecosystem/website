@@ -10,7 +10,7 @@ export default function NotFound() {
 				alignItems: "center",
 				justifyContent: "center",
 				color: "var(--md-sys-color-on-surface, #111111)",
-				padding: "48px 24px",
+				padding: "48px clamp(48px, 5vw, 64px)",
 				position: "relative",
 				fontFamily:
 					'var(--md-sys-typescale-font-family, "Google Sans", sans-serif)',
