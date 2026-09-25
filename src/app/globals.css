@@ -831,4 +831,11 @@ md-text-button {
 		gap: 1.5rem;
 		text-align: center;
 	}
+
+	@media (max-width: 768px) {
+		.not-found-text-column {
+			align-items: center !important;
+			text-align: center !important;
+		}
+	}
 }
