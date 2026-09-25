@@ -650,6 +650,7 @@ md-text-button {
 		#555555 100%
 	);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	opacity: 0.9;
 	filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
@@ -682,6 +683,10 @@ md-text-button {
 }
 
 @media (max-width: 768px) {
+	.desktop-br {
+		display: none;
+	}
+
 	html,
 	body {
 		overflow-x: hidden;
@@ -733,7 +738,7 @@ md-text-button {
 
 	.hero-content {
 		margin-top: 3rem;
-		padding: 0 1rem;
+		padding: 0 2rem;
 	}
 
 	.hero-actions {
@@ -786,7 +791,7 @@ md-text-button {
 	}
 
 	.principles {
-		padding: 4rem 1.5rem;
+		padding: 4rem 2rem;
 	}
 
 	.section-title {
@@ -805,7 +810,7 @@ md-text-button {
 	}
 
 	.ecosystem-showcase {
-		padding: 4rem 1.5rem;
+		padding: 4rem 2rem;
 	}
 
 	.ecosystem-visuals {
@@ -814,11 +819,11 @@ md-text-button {
 	}
 
 	.vision-statement {
-		padding: 1.5rem;
+		padding: 2rem;
 	}
 
 	.vision-card {
-		padding: 3rem 1.5rem;
+		padding: 3rem 2rem;
 		border-radius: 32px;
 	}
 

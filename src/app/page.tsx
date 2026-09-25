@@ -198,8 +198,8 @@ export default function Home() {
 							</span>
 						</h1>
 						<p className="headline-medium hero-subtitle">
-							Simple, private, and designed for a seamless <br /> software
-							ecosystem experience
+							Simple, private, and designed for a seamless{" "}
+							<br className="desktop-br" /> software ecosystem experience
 						</p>
 					</div>
 				</section>
