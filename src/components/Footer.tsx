@@ -36,24 +36,73 @@ export default function Footer() {
 									width="24"
 									height="24"
 									viewBox="0 0 24 24"
-									fill="none"
 								>
 									<defs>
-										<clipPath id="f-clip">
-											<rect width="24" height="24" rx="6" ry="6" />
-										</clipPath>
+										<mask
+											id="a"
+											maskUnits="userSpaceOnUse"
+											x="0"
+											y="0"
+											width="24"
+											height="24"
+										>
+											<rect width="24" height="24" rx="6" ry="6" fill="white" />
+											<circle
+												cx="8.25"
+												cy="8.25"
+												r="11.25"
+												transform="rotate(180 12 12)"
+												fill="black"
+											/>
+											<circle
+												cx="8.25"
+												cy="8.25"
+												r="5.25"
+												transform="rotate(180 12 12)"
+												fill="white"
+											/>
+										</mask>
+										<mask
+											id="b"
+											maskUnits="userSpaceOnUse"
+											x="0"
+											y="0"
+											width="24"
+											height="24"
+										>
+											<rect width="24" height="24" rx="6" ry="6" fill="black" />
+											<circle
+												cx="8.25"
+												cy="8.25"
+												r="11.25"
+												transform="rotate(180 12 12)"
+												fill="white"
+											/>
+											<circle
+												cx="8.25"
+												cy="8.25"
+												r="5.25"
+												transform="rotate(180 12 12)"
+												fill="black"
+											/>
+										</mask>
 									</defs>
-									<g clipPath="url(#f-clip)">
-										<rect x="0" y="0" width="24" height="24" fill="#000000" />
-										<circle
-											cx="8.25"
-											cy="8.25"
-											r="8.25"
-											stroke="#ffffff"
-											strokeWidth="6"
-											transform="rotate(180 12 12)"
-										/>
-									</g>
+									<rect
+										width="24"
+										height="24"
+										rx="6"
+										ry="6"
+										fill="black"
+										mask="url(#a)"
+									/>
+									<rect
+										width="24"
+										height="24"
+										rx="6"
+										ry="6"
+										fill="white"
+										mask="url(#b)"
+									/>
 								</svg>
 							</span>
 							<span className="letter">W</span>
